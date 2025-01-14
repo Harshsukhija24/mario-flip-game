@@ -25,8 +25,6 @@ function shuffle(array) {
   return array;
 }
 
-
-
 const shuffledImgUrls = shuffle([...imgUrls]);
 const game = document.getElementById("game");
 const grid = document.createElement("div");
@@ -50,7 +48,7 @@ shuffledImgUrls.forEach((imgUrl) => {
   const back = document.createElement("div");
   back.setAttribute("class", "back");
 
-  front.style.backgroundImage = `url("./question-mark-vector-icon-png_256683.jpg")`;
+  front.style.backgroundImage = `url("./mystery.png")`;
   back.style.backgroundImage = `url('${imgUrl}')`;
   front.style.backgroundSize = "cover";
   back.style.backgroundSize = "cover";

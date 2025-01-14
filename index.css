@@ -32,6 +32,7 @@ body {
   backface-visibility: hidden;
   background-size: cover;
   background-position: center;
+  border-radius: 12%;
 }
 
 .front {
@@ -63,7 +64,9 @@ body {
   left: 39rem;
   /* color: ; */
   border: 2px solid green;
-  background-color: green;
+  /* background-color: green; */
+  background-color: #ff193d;
+
   padding: 1rem;
   width: 15%;
   text-align: center;
@@ -74,6 +77,6 @@ body {
   left: 73rem;
   top: 3rem;
   border: 2px solid green;
-  background-color: green;
+  background-color: #ff193d;
   padding: 1rem;
 }
